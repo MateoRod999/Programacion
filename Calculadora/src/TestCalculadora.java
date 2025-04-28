@@ -2,14 +2,13 @@ import java.util.Scanner;
 
 public class TestCalculadora {
     public static void main(String[] args) {
-        double a,b;
         Calculadora calculadora = new Calculadora();
         Scanner calculo = new Scanner(System.in);
         int opcion;
         System.out.println("Ingrese el primer número que desee calcular: ");
-        a = calculo.nextDouble();
+        double a = calculo.nextDouble();
         System.out.println("Ingrese el segundo número que desea calcular: ");
-        b = calculo.nextDouble();
+        double b = calculo.nextDouble();
         do {
             System.out.println("\n\nSeleccione la operación: \n");
             System.out.println("1. Sumar");
