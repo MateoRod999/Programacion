@@ -5,25 +5,14 @@ public class Reloj {
         return horas;
     }
 
-    public void setHora(int horas) {
-        this.horas = horas;
-    }
-
     public int getMinuto() {
         return minutos;
-    }
-
-    public void setMinuto(int minutos) {
-        this.minutos = minutos;
     }
 
     public int getSegundo() {
         return segundos;
     }
 
-    public void setSegundo(int segundos) {
-        this.segundos = segundos;
-    }
 
     public void establecerHora(int horas, int minutos, int segundos) {
         boolean valido = true;
